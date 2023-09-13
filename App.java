@@ -27,6 +27,7 @@ public class app {
 
             for (JsonElement perosn: personArray) {
                 System.out.println("Name:" + person.getAsJsonObject().get("name").getAsString()));
+                System.out.println("GPA:" + person.getAsJsonObject().get("GPA").getAsString()));
             }
         }
         catch(Exception e){
